@@ -82,7 +82,7 @@ body{
 	color: whitesmoke;
 }
 
-.tag2 li:hover{
+.tag2 li a:hover{
 	cursor: pointer;
 	color: deepskyblue;
 	background-color: black;

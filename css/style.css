@@ -84,6 +84,7 @@ body{
 
 .tag2 li:hover{
 	cursor: pointer;
+	color: deepskyblue;
 	background-color: black;
 	border-right: 4px solid deepskyblue;
 	transition: 0.4s ease-in-out;

@@ -21,6 +21,7 @@ body{
 	padding: 10px;
 	background-color: #1F2026;
 	position: fixed;
+	overflow: auto;
 }
 .profile-image{
 	width: 170px;

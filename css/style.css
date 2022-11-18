@@ -97,7 +97,7 @@ body{
 /*-------Main body Content Section-------*/
 .main{
 	width: 72%;
-	padding: 40px 35px 50px 40px;
+	padding: 40px 40px 50px 40px;
 	background-color: #1B1B1E;
 	float: right;
 }
@@ -116,7 +116,7 @@ body{
 	padding: 10px 0;
 	font-size: 17px;
 	letter-spacing: 1px;
-	margin: 10px 50px 10px 55px;
+	margin: 10px 55px 10px 55px;
 	text-align: justify;
 }
 .par1 a{
@@ -126,7 +126,7 @@ body{
 	color: deepskyblue;
 	font-size: 23px;
 	letter-spacing: 2px;
-	margin: 10px 50px 10px 55px;
+	margin: 10px 55px 10px 55px;
 	padding: 15px 0 15px;
 }
 .main ul li{
@@ -144,14 +144,14 @@ body{
 	padding: 10px 0;
 	font-size: 18px;
 	letter-spacing: 1px;
-	margin: 10px 50px 10px 55px;
+	margin: 10px 55px 10px 55px;
 	text-align: center;
 }
 .par3{
 	color: whitesmoke;
 	font-size: 15px;
 	letter-spacing: 1px;
-	margin: 10px 50px 10px 55px;
+	margin: 10px 55px 10px 55px;
 	text-align: center;
 }
 

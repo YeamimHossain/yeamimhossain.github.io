@@ -21,7 +21,7 @@ body{
 	padding: 10px;
 	background-color: #1F2026;
 	position: fixed;
-	overflow: auto;
+	overflow: scroll;
 }
 .profile-image{
 	width: 170px;
@@ -97,8 +97,8 @@ body{
 
 /*-------Main body Content Section-------*/
 .main{
-	width: 74%;
-	padding: 40px 0px 50px 40px;
+	width: 75%;
+/*	padding: 40px 0px 50px 40px;*/
 	background-color: #1B1B1E;
 	float: right;
 }

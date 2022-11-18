@@ -91,7 +91,7 @@ body{
 	transition: 0.2s ease-in-out;
 }
 .tag2 li:active{
-	background-color: gray;
+	background-color: #2e3596;
 }
 
 /*-------Main body Content Section-------*/

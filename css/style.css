@@ -16,7 +16,7 @@ body{
 
 /*-------Nav Bar-------*/
 .navbar{
-	width: 24%;
+	width: 23%;
 	height: 100vh;
 	padding: 10px;
 	background-color: #1F2026;
@@ -37,8 +37,9 @@ body{
 	letter-spacing: 1px;
 }
 .navbar p{
-	color: whitesmoke;
-	text-align: center;
+color: whitesmoke;
+text-align: center;
+padding: 9px 0px;
 }
 .email{
 	text-align: center;

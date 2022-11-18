@@ -124,7 +124,7 @@ body{
 }
 .subsec{
 	color: deepskyblue;
-	font-size: 24px;
+	font-size: 23px;
 	letter-spacing: 2px;
 	margin: 20px 10px 15px 80px;
 }
@@ -137,12 +137,6 @@ body{
 }
 .main ul li a{
 	color: whitesmoke;
-}
-.year{
-	color: deepskyblue;
-	font-size: 24px;
-	letter-spacing: 2px;
-	margin: 20px 10px 15px 80px;
 }
 
 /*-------Media Query Section (Responsive)-------*/

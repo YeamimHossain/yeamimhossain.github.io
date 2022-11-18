@@ -138,6 +138,22 @@ body{
 .main ul li a{
 	color: whitesmoke;
 }
+.par2{
+	color: deepskyblue;
+	padding: 10px 0;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin: 10px 50px 10px 55px;
+	text-align: justify;
+}
+.par3{
+	color: whitesmoke;
+	padding: 10px 0;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin: 10px 50px 10px 55px;
+	text-align: justify;
+}
 
 /*-------Media Query Section (Responsive)-------*/
 @media only screen and (max-width: 768px){

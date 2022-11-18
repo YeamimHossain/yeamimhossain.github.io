@@ -141,18 +141,18 @@ body{
 .par2{
 	color: deepskyblue;
 	padding: 10px 0;
-	font-size: 17px;
+	font-size: 18px;
 	letter-spacing: 1px;
 	margin: 10px 50px 10px 55px;
-	text-align: justify;
+	text-align: center;
 }
 .par3{
 	color: whitesmoke;
 	padding: 10px 0;
-	font-size: 17px;
+	font-size: 15px;
 	letter-spacing: 1px;
 	margin: 10px 50px 10px 55px;
-	text-align: justify;
+	text-align: center;
 }
 
 /*-------Media Query Section (Responsive)-------*/

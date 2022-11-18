@@ -93,6 +93,9 @@ body{
 	border-right: 4px solid deepskyblue;
 	transition: 0.2s ease-in-out;
 }
+.tag2 li:active{
+	background-color: blue;
+}
 
 /*-------Main body Content Section-------*/
 .main{

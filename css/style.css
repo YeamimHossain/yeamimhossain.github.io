@@ -89,6 +89,9 @@ body{
 	border-right: 4px solid deepskyblue;
 	transition: 0.2s ease-in-out;
 }
+.tag2 li:active{
+	color: gray;
+}
 
 /*-------Main body Content Section-------*/
 .main{

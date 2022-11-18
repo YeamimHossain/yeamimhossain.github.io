@@ -36,6 +36,9 @@ body{
 	font-size: 26px;
 	letter-spacing: 1px;
 }
+.navbar h4{
+	text-align: center;
+}
 .email{
 	text-align: center;
 	padding: 10px 0;

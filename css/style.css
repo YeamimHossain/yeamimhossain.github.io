@@ -138,7 +138,7 @@ body{
 	padding: 15px 10px;
 }
 .skill_category ul li{
-	display: inline flow-root list-item;
+	display: inline-block;
 	color: whitesmoke;
 	font-size: 17px;
 	letter-spacing: 1px;

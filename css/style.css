@@ -101,13 +101,14 @@ body{
 	transition: 0.2s ease-in-out;
 }
 .tag2 li:active{
-	background-color: #2e3596;
+	background-color: yellow;
+	/*background-color: #2e3596;*/
 }
 
 /*-------Main body Content Section-------*/
 .main{
 	width: 74%;
-	padding: 40px 0px 50px 0px;
+	padding: 40px 0px 30px 0px;
 /*	padding: 40px 0px 50px 40px;*/
 	background-color: #191e27;
 	float: right;
@@ -183,6 +184,15 @@ body{
 	letter-spacing: 1px;
 	margin: 10px 55px 10px 55px;
 	text-align: center;
+}
+.footer{
+	color: yellow;
+	font-size: 15px;
+	letter-spacing: 2px;
+	margin: 70px 0 0;
+	padding: 25px 0 0;
+	text-align: center;
+	border-top: 1.5px solid deepskyblue;
 }
 
 /*-------Media Query Section (Responsive)-------*/

@@ -112,8 +112,36 @@ body{
 	background-color: #191e27;
 	float: right;
 }
+/*.main ul li{
+	color: whitesmoke;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin: 10px 80px 10px 120px;
+	text-align: justify;
+}
+*/
+.main ul li a{
+	color: whitesmoke;
+}
 .div_body{
 	padding: 15px 10px;
+}
+.div_body ul li{
+	color: whitesmoke;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin: 10px 80px 10px 120px;
+	text-align: justify;
+}
+.skill_category{
+	padding: 15px 10px;
+}
+.skill_category ul li{
+	display: inline-block;
+	color: whitesmoke;
+	font-size: 17px;
+	letter-spacing: 1px;
+	margin: 10px 80px 10px 91px;
 }
 .section{
 	color: deepskyblue;
@@ -138,18 +166,8 @@ body{
 	color: deepskyblue;
 	font-size: 23px;
 	letter-spacing: 2px;
-	margin: 10px 55px 10px 55px;
+	margin: 10px 55px 10px 56px;
 	padding: 15px 0 0px;
-}
-.main ul li{
-	color: whitesmoke;
-	font-size: 17px;
-	letter-spacing: 1px;
-	margin: 10px 80px 10px 120px;
-	text-align: justify;
-}
-.main ul li a{
-	color: whitesmoke;
 }
 .par2{
 	color: ghostwhite;

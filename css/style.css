@@ -76,7 +76,7 @@ body{
 	padding: 0px 0px 50px;
 }
 .tag2{
-	margin-top: 60px;
+	margin: 50px 0px;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 1px;
@@ -189,7 +189,7 @@ body{
 }
 .footer{
 	color: yellow;
-	font-size: 15px;
+	font-size: 14px;
 	letter-spacing: 2px;
 	margin: 70px 0 30px;
 	padding: 25px 0 0;
@@ -210,7 +210,7 @@ body{
 	}
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 830px){
 	.navbar{
 		width: 100%;
 		background-color: #1F2026;

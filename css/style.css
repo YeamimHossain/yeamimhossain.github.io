@@ -35,16 +35,16 @@ body{
 	border: 2px solid deepskyblue;
 	border-radius: 100%;
 }
-.navbar h2{
+.name{
 	color: whitesmoke;
 	text-align: center;
-	font-size: 26px;
+	font-size: 25px;
 	letter-spacing: 1px;
 }
 .navbar p{
 	color: whitesmoke;
 	text-align: center;
-	padding: 9px 0px;
+	padding: 15px 0px 0px;
 }
 .email{
 	text-align: center;
@@ -76,9 +76,8 @@ body{
 }
 .tag2{
 	margin-top: 60px;
-	padding: 0;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 600;
 	letter-spacing: 1px;
 	list-style: none;
 
@@ -189,7 +188,7 @@ body{
 	color: yellow;
 	font-size: 15px;
 	letter-spacing: 2px;
-	margin: 70px 0 0;
+	margin: 70px 0 30px;
 	padding: 25px 0 0;
 	text-align: center;
 	border-top: 1.5px solid deepskyblue;

@@ -207,7 +207,7 @@ body{
 	}
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 830px){
 	.navbar{
 		width: 100%;
 		background-color: #1F2026;

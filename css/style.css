@@ -101,7 +101,7 @@ body{
 	transition: 0.2s ease-in-out;
 }
 .tag2 li:active{
-	background-color: yellow;
+	background-color: #2e3596;
 	/*background-color: #2e3596;*/
 }
 
@@ -208,7 +208,7 @@ body{
 	}
 }
 
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 768px){
 	.navbar{
 		width: 100%;
 		background-color: #1F2026;

@@ -178,13 +178,13 @@ body{
 	font-size: 18px;
 	letter-spacing: 1px;
 	margin: 10px 55px 10px 55px;
-	text-align: center;
+	text-align: left;
 }
 .par3{
 	color: darkgrey;
 	font-size: 15px;
 	letter-spacing: 1px;
-	margin: 0px 55px 18px 55px;
+	margin: 0px 55px 25px 55px;
 	text-align: center;
 }
 .footer{

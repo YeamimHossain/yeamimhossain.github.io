@@ -154,9 +154,9 @@ body{
 	margin: 20px 40px 0px 40px;
 	text-align: center;
 	text-transform: uppercase;
-	text-decoration-line: underline overline;
+/*	text-decoration-line: underline overline;
 	text-decoration-style: dotted;
-	text-decoration-thickness: 4px;
+	text-decoration-thickness: 4px;*/
 }
 .par1{
 	color: whitesmoke;

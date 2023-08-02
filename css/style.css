@@ -149,6 +149,7 @@ body{
 .section{
 	color: deepskyblue;
 	font-size: 26px;
+	font-weight: bold;
 	letter-spacing: 2px;
 	margin: 20px 40px 0px 40px;
 	text-align: center;

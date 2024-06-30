@@ -176,6 +176,15 @@ body{
 	margin: 10px 55px 10px 56px;
 	padding: 15px 0 0px;
 }
+table, th, td{
+	border: 2px solid deepskyblue;
+	border-collapse: collapse;
+	margin: 10px 55px 10px 55px;
+	color: ghostwhite;
+	font-size: 18px;
+	text-align: left;
+	padding: 5px 15px;
+}
 .par2{
 	color: ghostwhite;
 	padding: 10px 0;

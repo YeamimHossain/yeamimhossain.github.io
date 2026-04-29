@@ -195,7 +195,15 @@
                     </ul>
                 </div>
                 <div class="footer">
-                    <p>Copyright © Md Yeamim Hossain - Updated on 30/04/2026</p>          
+                    <p>Copyright © Md Yeamim Hossain</p>
+                    <p>Last Updated: <span id="last-updated"></span></p>
+
+                    <script>
+                      // Get the last modified date from the document
+                      const lastMod = document.lastModified;
+                      // Insert it into the span element
+                      document.getElementById('last-updated').innerHTML = lastMod;
+                    </script>
                 </div>
             </div>
         </div>

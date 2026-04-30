@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="6" fill="#1a1814"/>
+
+  <!-- Stylized Y: left arm -->
+  <line x1="8" y1="5" x2="15.5" y2="15" stroke="#b5540a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Stylized Y: right arm -->
+  <line x1="24" y1="5" x2="16.5" y2="15" stroke="#b5540a" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Stylized Y: stem -->
+  <line x1="16" y1="15" x2="16" y2="26.5" stroke="#b5540a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- EEG signal wave accent (bottom strip) -->
+  <polyline
+    points="4,29 7,29 9,29 10.5,27 12,29 13.5,29 15,23.5 16,30 17,24 18.5,29 20,29 21.5,27.5 23,29 25,29 28,29"
+    fill="none"
+    stroke="#e8a97a"
+    stroke-width="1"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.75"
+  />
+</svg>

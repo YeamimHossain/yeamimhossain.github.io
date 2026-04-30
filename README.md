@@ -1,65 +1,38 @@
 # yeamimhossain.github.io
 
-This repository hosts the source code for my **personal website** built using **GitHub Pages**.
+Personal academic portfolio of **Md Yeamim Hossain** — Graduate Student in Information Technology at Jahangirnagar University.
 
 🌐 **Live Website:** https://yeamimhossain.github.io
 
-The site serves as an online portfolio where I share information about my academic background, research interests, projects, publications, and contact details.
-
 ---
 
-## 📌 About the Website
+## Features
 
-- Personal academic and professional portfolio  
-- Overview of projects and research work  
-- Skills and technical background  
-- Publications and achievements  
-- Contact and profile links  
+- Responsive single-page layout with fixed sidebar navigation
+- Smooth scroll-in animations via IntersectionObserver
+- Active nav highlight on scroll
+- Mobile-friendly with slide-out sidebar
+- Sections: About · Research & Thesis (MS + BS) · Skills · Projects · Experience · Publications
 
-The website is deployed automatically using **GitHub Pages**. Any changes pushed to this repository are reflected on the live site.
+## Customization
 
----
+1. **Profile photo**: Replace `img/profile.jpeg` with your own photo
+2. **CV**: Place your PDF at `doc/cv.pdf`
+3. **Thesis info**: Update the thesis cards in `index.html` (section `#thesis`)
+4. **Social links**: Edit the sidebar links in `index.html`
 
-## 🛠 Editing the Website
+## Stack
 
-To make updates locally:
+- Vanilla HTML5 / CSS3 / JavaScript
+- Google Fonts (Cormorant Garamond · DM Sans · DM Mono)
+- Font Awesome 6.5 (CDN)
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YeamimHossain/yeamimhossain.github.io.git
-   ```
+## Deploy
 
-2. Edit the HTML/CSS/JS files as needed.
+Push to this repo — GitHub Pages deploys automatically.
 
-3. Commit and push your changes:
-   ```bash
-   git add .
-   git commit -m "Update website content"
-   git push
-   ```
-
-GitHub Pages will automatically rebuild and deploy the site.
-
----
-
-## 📂 Repository Structure
-
+```bash
+git add .
+git commit -m "Update portfolio"
+git push
 ```
-yeamimhossain.github.io/
-├── index.html
-├── css/
-├── js/
-├── assets/
-└── README.md
-```
-
----
-
-## 📝 License
-
-This project is open for personal and educational use.  
-Please contact the author for reuse or redistribution of content.
-
----
-
-⭐ Thank you for visiting my personal website repository!

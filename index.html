@@ -1,214 +1,714 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
-        <title>Home | Md Yeamim Hossain</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/favicon/site.webmanifest">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/academicons.min.css">
-        <link rel="stylesheet" type="text/css" href="css/all.min.css">
-        <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css">
-        <link rel="stylesheet" type="text/css" href="css/solid.min.css">
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Md Yeamim Hossain — Researcher & Graduate Student</title>
+  <meta name="description" content="Personal academic portfolio of Md Yeamim Hossain — Graduate Student in Information Technology at Jahangirnagar University. Research in AI, ML, Biomedical Signal Processing." />
+  <meta name="author" content="Md Yeamim Hossain" />
 
-    <body>
-        <div class="container">
-            <div class="navbar">
-                <div class="nav_info">
-                    <img src="img/img6.jpeg" alt="image_Yeamim" class="profile-image">
-                    <p class="name">Md Yeamim Hossain</p>
-                    <p>Graduate Student <br> Information Technology (IT) at Jahangirnagar University</p>
-                    <p class="email"><a href="mailto:yeamim.sumon@gmail.com">yeamim.sumon@gmail.com</a></p>
-                    <ul class="tag1">
-                        <li><a href="https://github.com/YeamimHossain" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
-                        <li><a href="https://scholar.google.com/citations?user=k6qChIoAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="ai ai-google-scholar"></i></a></li>
-                        <li><a href="https://orcid.org/0000-0002-3690-2423" target="_blank" rel="noopener noreferrer"><i class="ai ai-orcid"></i></a></li>
-                        <li><a href="https://www.researchgate.net/profile/Md-Hossain-1550" target="_blank" rel="noopener noreferrer"><i class="ai ai-researchgate"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/yeamimhossain/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="doc/CV_MD YEAMIM HOSSAIN.pdf" target="_blank" rel="noopener noreferrer"><i class="ai ai-cv"></i></a></li>
-                    </ul>
-                </div>
-                <div class="nav_menu">
-                    <ul class="tag2">
-                        <li><a href="#about" class="a1">Bio</a></li>
-                        <li><a href="#skills" class="a1">Skills</a></li>
-                        <li><a href="#projects" class="a1">Projects</a></li>
-                        <li><a href="#experiences" class="a1">Experiences</a></li>
-                        <li><a href="#publications" class="a1">Publications</a></li>
-                    </ul>
-                </div>
+  <!-- Open Graph -->
+  <meta property="og:title" content="Md Yeamim Hossain" />
+  <meta property="og:description" content="Researcher · Graduate Student in IT · Jahangirnagar University" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yeamimhossain.github.io" />
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Mobile Toggle -->
+<button class="mobile-toggle" id="mobileToggle" aria-label="Open navigation">
+  <i class="fa-solid fa-bars"></i>
+</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+<div class="layout">
+
+  <!-- ═══════════ SIDEBAR ═══════════ -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-inner">
+
+      <!-- Profile -->
+      <img
+        src="img/profile.jpeg"
+        alt="Md Yeamim Hossain"
+        class="profile-photo"
+        onerror="this.src='https://ui-avatars.com/api/?name=Md+Yeamim+Hossain&background=1a1814&color=e8a97a&size=200'"
+      />
+      <div class="profile-name">Md Yeamim Hossain</div>
+      <div class="profile-title">Graduate Student</div>
+      <div class="profile-dept">Information Technology · Jahangirnagar University</div>
+      <a href="mailto:yeamim.sumon@gmail.com" class="profile-email">yeamim.sumon@gmail.com</a>
+
+      <!-- Navigation -->
+      <nav aria-label="Page sections">
+        <div class="nav-label">Navigate</div>
+        <ul>
+          <li><a href="#about"><span class="nav-icon"><i class="fa-regular fa-user"></i></span>About</a></li>
+          <li><a href="#thesis"><span class="nav-icon"><i class="fa-regular fa-file-lines"></i></span>Research &amp; Thesis</a></li>
+          <li><a href="#skills"><span class="nav-icon"><i class="fa-solid fa-code"></i></span>Skills</a></li>
+          <li><a href="#projects"><span class="nav-icon"><i class="fa-regular fa-folder-open"></i></span>Projects</a></li>
+          <li><a href="#experience"><span class="nav-icon"><i class="fa-regular fa-chalkboard-user"></i></span>Experience</a></li>
+          <li><a href="#publications"><span class="nav-icon"><i class="fa-regular fa-newspaper"></i></span>Publications</a></li>
+        </ul>
+      </nav>
+
+      <!-- Social links -->
+      <div class="sidebar-social">
+        <a href="https://scholar.google.com/citations?user=k6qChIoAAAAJ&hl=en" target="_blank" rel="noopener" class="social-link" title="Google Scholar">
+          <i class="fa-brands fa-google-scholar"></i>
+        </a>
+        <a href="https://www.researchgate.net/profile/Md-Hossain-1550" target="_blank" rel="noopener" class="social-link" title="ResearchGate">
+          <i class="fa-brands fa-researchgate"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yeamimhossain/" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/YeamimHossain" target="_blank" rel="noopener" class="social-link" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://orcid.org" target="_blank" rel="noopener" class="social-link" title="ORCID">
+          <i class="fa-brands fa-orcid"></i>
+        </a>
+        <a href="doc/CV_MD YEAMIM HOSSAIN.pdf" target="_blank" rel="noopener" class="social-link" title="Curriculum Vitae">
+          <i class="fa-regular fa-file-pdf"></i>
+        </a>
+      </div>
+
+    </div>
+  </aside><!-- /sidebar -->
+
+  <!-- ═══════════ MAIN CONTENT ═══════════ -->
+  <main class="main">
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-content">
+        <div class="hero-greeting">Portfolio · Academic Profile</div>
+        <h1 class="hero-name">Md Yeamim <span>Hossain</span></h1>
+        <p class="hero-desc">
+          Researcher with a focus on Machine Learning, Biomedical Signal Processing, and Artificial Intelligence.
+          Currently pursuing an M.S. in Information Technology at Jahangirnagar University, Bangladesh.
+        </p>
+        <div class="hero-badges">
+          <span class="badge accent"><i class="fa-solid fa-graduation-cap"></i> M.S. Student</span>
+          <span class="badge"><i class="fa-solid fa-flask"></i> ML Researcher</span>
+          <span class="badge"><i class="fa-regular fa-newspaper"></i> 2 IEEE Publications</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+      <div class="section-label">About</div>
+      <h2 class="section-title">Biography</h2>
+
+      <p class="bio-text">
+        Md Yeamim Hossain earned his B.S. in  
+        <a href="https://ete.ulab.edu.bd/" target="_blank" rel="noopener">
+        Electronics and Telecommunication Engineering
+      </a>
+       from the 
+       <a href="https://ulab.edu.bd/" target="_blank" rel="noopener">
+        University of Liberal Arts Bangladesh
+       </a>
+        in 2019. During his undergraduate studies, he developed strong academic and research interests in machine learning, data science, signal processing, biomedical signal analysis, and deep learning. His undergraduate thesis focused on the application of machine learning techniques to biomedical signal processing, working with signals such as EEG, EMG, and ECG for classification and analysis tasks, resulting in several publications in IEEE conferences.
+      </p>
+
+      <p class="bio-text" style="margin-top: 1rem;">
+        He is currently pursuing an M.S. in 
+        <a href="https://juniv.edu/institute/iit" target="_blank" rel="noopener">
+        Information Technology
+        </a>
+        at 
+        <a href="https://juniv.edu/" target="_blank" rel="noopener">Jahangirnagar University
+        </a>
+        , where his coursework includes machine learning, artificial intelligence, data science, IoT, cloud computing, human-computer interaction, and data mining. He also served as a Teaching Assistant at ULAB, where he assisted in laboratory instruction, prepared course materials, and supported students through academic mentoring.
+      </p>
+
+      <div class="bio-extra">
+        <p class="bio-text" style="margin-top: 1rem;">
+          Beyond academics, Yeamim is passionate about research, project development, coding, and design. In his leisure time, he enjoys reading novels, watching films, playing video games, traveling, and
+          spending quality time with family. He aspires to pursue advanced research and build a meaningful career in artificial intelligence and intelligent systems.
+        </p>
+      </div>
+      <button class="read-more-btn" aria-expanded="false">
+        <span class="btn-label">Read more</span>
+        <span class="btn-icon"><i class="fa-solid fa-chevron-down"></i></span>
+      </button>
+
+      <!-- Research Interests -->
+      <div style="margin-top: 2rem;">
+        <div class="section-label" style="margin-bottom: 0.75rem;">Research Interests</div>
+        <div class="interests-grid">
+          <span class="interest-tag">Artificial Intelligence</span>
+          <span class="interest-tag">Machine Learning</span>
+          <span class="interest-tag">Deep Learning</span>
+          <span class="interest-tag">Bioinformatics</span>
+          <span class="interest-tag">Computer Vision</span>
+          <span class="interest-tag">Federated Learning</span>
+          <span class="interest-tag">Convex Optimization</span>
+          <span class="interest-tag">Signal Processing</span>
+          <span class="interest-tag">Wireless Communication</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── THESIS ── -->
+    <section id="thesis">
+      <div class="section-label">Research</div>
+      <h2 class="section-title">Thesis Work</h2>
+
+      <div class="thesis-grid">
+
+        <!-- MS Thesis -->
+        <div class="thesis-card">
+          <div class="thesis-header collapsible-trigger" aria-expanded="false">
+            <div class="thesis-header-top">
+              <span class="thesis-degree">M.S. Thesis · Ongoing</span>
+              <span class="chevron"><i class="fa-solid fa-chevron-down"></i></span>
             </div>
-            <div class="main">
-                <div class="div_body">
-                    <a name="about"></a>
-                    <p class="section">Bio</p>
-                    <p class="par1">
-                        Md Yeamim Hossain earned his B.S. in <a href="https://ete.ulab.edu.bd/" target="_blank" rel="noopener noreferrer">Electronics and Telecommunication Engineering</a> from the <a href="https://ulab.edu.bd/" target="_blank" rel="noopener noreferrer">University of Liberal Arts Bangladesh</a> in 2019. During his undergraduate studies, he developed strong academic and research interests in machine learning, data science, signal processing, biomedical signal analysis, and deep learning. His undergraduate thesis focused on the application of machine learning techniques to biomedical signal processing, where he worked with signals such as EEG, EMG, and ECG for classification and analysis tasks. This research experience resulted in several publications in IEEE conferences, strengthening his foundation in applied machine learning research.
-                    </p>
-                    <p class="par1">
-                        To further expand his expertise, he is currently pursuing an M.S. in <a href="https://juniv.edu/institute/iit" target="_blank" rel="noopener noreferrer">Information Technology</a> at <a href="https://juniv.edu/" target="_blank" rel="noopener noreferrer">Jahangirnagar University</a>, where his coursework includes machine learning, artificial intelligence, data science, IoT, cloud computing, human-computer interaction, and data mining. His graduate studies have broadened his knowledge in intelligent systems and advanced computational technologies, reinforcing his long-term goal of contributing to innovative research in machine learning and related interdisciplinary domains.
-                    </p>
-                    <p class="par1">
-                        In addition to his academic background, he has developed practical proficiency in programming languages, machine learning frameworks, simulation software, networking tools, and system design platforms, enabling him to bridge theoretical knowledge with hands-on implementation. He also served as a Teaching Assistant in the Department of <a href="https://eee.ulab.edu.bd/" target="_blank" rel="noopener noreferrer">Electrical and Electronic Engineering</a> at the <a href="https://ulab.edu.bd/" target="_blank" rel="noopener noreferrer">University of Liberal Arts Bangladesh</a>, where he assisted in laboratory instruction, prepared course materials, maintained academic documentation, and supported students through academic guidance and mentoring. This role enhanced his communication, organizational, and instructional skills while strengthening his commitment to academic excellence.
-                    </p>
-                    <p class="par1">
-                        Beyond academics, Yeamim is passionate about research, project development, coding, and design, and actively participated in technical competitions and project-based activities throughout his university years. In his leisure time, he enjoys reading novels, watching films, playing video games, traveling, and spending quality time with his family. With a strong academic foundation, research experience, and a growing specialization in machine learning, he aspires to pursue advanced research and build a meaningful career in artificial intelligence and intelligent systems.
-                    </p>
-                    <p class="par1">
-                        <b style="color:deepskyblue;">Research Interest:</b> Artificial Intelligence (AI), Machine Learning (ML), Bioinformatics, Computer Vision, Federated Learning (FL), Convex Optimization, Signal Processing, Wireless Communication.
-                    </p>
-                </div>
-
-                <div class="skill_category">
-                    <a name="skills"></a>
-                    <p class="section">Skills</p>
-                    <p class="subsec">Programming Languages</p>
-                    <ul>
-                        <li>Python</li>
-                        <li>MATLAB</li>
-                        <li>C Programming</li>
-                        <li>Arduino Programming</li>
-                    </ul>
-                    <p class="subsec">Frameworks</p>
-                    <ul>
-                        <li>Scikit-learn</li>
-                        <li>Tensorflow</li>
-                        <li>PyTorch</li>
-                        <li>Wordpress</li>
-                    </ul>
-                    <p class="subsec">Simulation Softwares</p>
-                    <ul>
-                        <li>Simulink</li>
-                        <li>Lumerical FDTD</li>
-                        <li>Microwind</li>
-                        <li>Proteus</li>
-                        <li>Logisim</li>
-                        <li>CST Studio</li>
-                        <li>Microwave Office</li>
-                    </ul>
-                    <p class="subsec">Networking</p>
-                    <ul>
-                        <li>Cisco packet Tracer</li>
-                        <li>Wireshark</li>
-                    </ul>
-                    <p class="subsec">Design and Developement</p>
-                    <ul>
-                        <li>Adobe Illustrator</li>
-                        <li>Adobe Photoshop</li>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>Bootstrap</li>
-                        <li>Canva</li>
-                        <li>Figma</li>
-                    </ul>
-                    <p class="subsec">Operating System</p>
-                    <ul>
-                        <li>Linux</li>
-                        <li>Windows</li>
-                    </ul>
-                    <p class="subsec">Documentation</p>
-                    <ul>
-                        <li>LaTex</li>
-                        <li>Microsoft Office</li>
-                        <li>Libre Office</li>
-                    </ul>
-                    <p class="subsec">Reference Manager</p>
-                    <ul>
-                        <li>Zotero</li>
-                        <li>Mendeley</li>
-                    </ul>
-                </div>
-
-                <div class="div_body">
-                    <a name="projects"></a>
-                    <p class="section">Projects</p>
-                    <p class="subsec">Current</p>
-                    <!-- <ul>
-                        <li>System cost minimization for federated learning (FL) in wireless network</li>
-                    </ul> -->
-                    <p class="par2">
-                        Robust Federated Learning under Distribution Shift in Biomedical Time-Series Data
-                    </p>
-                    <p class="subsec">Completed</p>
-                    <table>
-                        <tr>
-                            <td>1</td>
-                            <td>Detection of motor imagery (MI) event in Electroencephalogram (EEG) signals using artificial intelligence techniques</td>
-                        </tr>
-                    </table>
-                    <!-- <p class="par2">
-                        A Comparative Study of Motor Imagery (MI) Detection in Electroencephalogram (EEG) Signals Using Different Classification Algorithms -->
-                    </p>
-                    <!-- <p class="par3">
-                        <i></i>
-                    </p>
-                    
-                    <p class="par3">
-                        <i></i>
-                    </p>
-                    
-                    <p class="par3">
-                        <i></i>
-                    </p> -->
-                </div>
-
-                <div class="div_body">
-                    <a name="experiences"></a>
-                    <p class="section">Experiences</p>
-                    <p class="subsec">Taught/Assisted Courses</p>
-                    <p class="subsec">Spring 2020</p>
-                    <ul>
-                        <li>ETE 312 - Control System Engineering & Robotics Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/abul-barkat-mollah-sayeed-ud-doulah-phd" target="_blank" rel="noopener noreferrer">Abul Barkat Mollah Sayeed Ud Doulah, PhD</a>)</li>
-                        <li>EEE 304/ETE 316 - Digital Signal Processing Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/abul-barkat-mollah-sayeed-ud-doulah-phd" target="_blank" rel="noopener noreferrer">Abul Barkat Mollah Sayeed Ud Doulah, PhD</a>)</li>
-                        <li>CSE 104 - Structured Programming Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener noreferrer">Mirza Rasheduzzaman, PhD</a>)</li>
-                    </ul>
-                    <p class="subsec">Fall 2019</p>
-                    <ul>
-                        <li>EEE 312 - Microprocessor and Embedded Systems Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener noreferrer">Mirza Rasheduzzaman, PhD</a>)</li>
-                        <li>ETE 320 - Computer Architecture and Microprocessor Interfacing Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener noreferrer">Mirza Rasheduzzaman, PhD</a>)</li>
-                        <li>ETE 464 - Optical Fiber Communication Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/abul-barkat-mollah-sayeed-ud-doulah-phd" target="_blank" rel="noopener noreferrer">Abul Barkat Mollah Sayeed Ud Doulah, PhD</a>)</li>
-                        <li>CSE 104 - Structured Programming Lab (Course Instructor: <a href="https://ulab.edu.bd/academics/faculty-list/profile/257/" target="_blank" rel="noopener noreferrer">Shameem Hasan</a>)</li>
-                    </ul>
-                    <p class="subsec">Summer 2019</p>
-                    <ul>
-                        <li>EEE 312 - Microprocessor and Embedded Systems Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener noreferrer">Mirza Rasheduzzaman, PhD</a>)</li>
-                        <li>ETE 320 - Computer Architecture and Microprocessor Interfacing Lab (Course Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener noreferrer">Mirza Rasheduzzaman, PhD</a>)</li>
-                        <li>ETE 203 - Electronics Device and Circuit – I Lab (Course Instructor: <a href="https://ulab.edu.bd/academics/faculty-list/profile/257/" target="_blank" rel="noopener noreferrer">Shameem Hasan</a>)</li>
-                    </ul>
-                </div>
-
-                <div class="div_body">
-                    <a name="publications"></a>
-                    <p class="section">Publications</p>
-                    <p class="subsec">Conferences</p>
-                    <p class="subsec">2021</p>
-                    <ul>
-                        <li><a href="https://ieeexplore.ieee.org/document/9528276" target="_blank" rel="noopener noreferrer">A Comparative Study of Motor Imagery (MI) Detection in Electroencephalogram (EEG) Signals Using Different Classification Algorithms</a>, <b><i>Muhammad Yeamim Hossain*,</i></b> Abul Sayeed, <i>2021 International Conference on Automation, Control and Mechatronics for Industry 4.0 (ACMI)</i></li>
-                    </ul>
-                    <p class="subsec">2020</p>
-                    <ul>
-                        <li><a href="https://ieeexplore.ieee.org/document/9224634" target="_blank" rel="noopener noreferrer">Detection of motor imagery (MI) event in Electroencephalogram (EEG) signals using artificial intelligence technique</a>, <b><i>Muhammad Yeamim Hossain*,</i></b> A.B.M.S.U. Doulah, <i>2020 IEEE East-West Design & Test Symposium (EWDTS)</i></li>
-                    </ul>
-                </div>
-                <div class="footer">
-                    <p>Copyright © Md Yeamim Hossain</p>
-                    <p>Last Updated: <span id="last-updated"></span></p>
-
-                    <script>
-                      // Get the last modified date from the document
-                      const lastMod = document.lastModified;
-                      // Insert it into the span element
-                      document.getElementById('last-updated').innerHTML = lastMod;
-                    </script>
-                </div>
+            <div class="thesis-title">
+              Robust Federated Learning under Distribution Shift in Biomedical Time-Series Data
             </div>
+          </div>
+          <div class="collapsible-body thesis-body">
+            <div class="thesis-meta">
+              <div class="thesis-meta-item">
+                <i class="fa-regular fa-building-columns" style="color: var(--accent); font-size: 0.85rem;"></i>
+                <span>Jahangirnagar University, IIT</span>
+              </div>
+              <div class="thesis-meta-item">
+                <i class="fa-regular fa-calendar" style="color: var(--accent); font-size: 0.85rem;"></i>
+                <span>2022 – Present</span>
+              </div>
+              <div class="thesis-meta-item">
+                <i class="fa-regular fa-user" style="color: var(--accent); font-size: 0.85rem;"></i>
+
+                <!-- <span>Supervisor: <em>[Supervisor Name]</em></span> -->
+
+                <span>Supervisor:
+                  <a href="https://iitju.edu.bd/faculty-staff/faculty/3?name=M.+Shamim+Kaiser%2C+PhD" target="_blank" rel="noopener">
+                    M. Shamim Kaiser, PhD
+                  </a>
+                </span>
+              </div>
+            </div>
+            <p class="thesis-desc">
+              This research investigates the challenges of training federated learning models on biomedical
+              time-series data — such as EEG, ECG, and EMG signals — where data distributions across multiple
+              clients (hospitals, devices) vary significantly. The work proposes robust aggregation strategies
+              and domain adaptation techniques to maintain model performance under heterogeneous, non-IID data conditions,
+              with applications in decentralized healthcare AI and privacy-preserving diagnostics.
+            </p>
+            <div class="thesis-keywords">
+              <span class="keyword">Federated Learning</span>
+              <span class="keyword">Distribution Shift</span>
+              <span class="keyword">Biomedical Signals</span>
+              <span class="keyword">EEG / ECG / EMG</span>
+              <span class="keyword">Non-IID Data</span>
+              <span class="keyword">Privacy-Preserving ML</span>
+            </div>
+          </div>
         </div>
 
-        <script type="text/javascript" src="js/all.min.js"></script>
+        <!-- BS Thesis -->
+        <div class="thesis-card">
+          <div class="thesis-header collapsible-trigger" aria-expanded="false">
+            <div class="thesis-header-top">
+              <span class="thesis-degree">B.S. Thesis · Completed 2019</span>
+              <span class="chevron"><i class="fa-solid fa-chevron-down"></i></span>
+            </div>
+            <div class="thesis-title">
+              Detection of Motor Imagery Events in EEG Signals Using Artificial Intelligence Techniques
+            </div>
+          </div>
+          <div class="collapsible-body thesis-body">
+            <div class="thesis-meta">
+              <div class="thesis-meta-item">
+                <i class="fa-regular fa-building-columns" style="color: var(--accent); font-size: 0.85rem;"></i>
+                <span>University of Liberal Arts Bangladesh</span>
+              </div>
+              <div class="thesis-meta-item">
+                <i class="fa-regular fa-calendar" style="color: var(--accent); font-size: 0.85rem;"></i>
+                <span>2018 – 2019</span>
+              </div>
+              <div class="thesis-meta-item">
+                <i class="fa-regular fa-user" style="color: var(--accent); font-size: 0.85rem;"></i>
+                <span>Supervisor:
+                  <a href="https://scholar.google.com/citations?user=LerqP3wAAAAJ&hl=en" target="_blank" rel="noopener">
+                    Abul Barkat Mollah Sayeed Ud Doulah, PhD
+                  </a>
+                </span>
+              </div>
+            </div>
+            <p class="thesis-desc">
+              This thesis explored the automated detection and classification of motor imagery (MI) events in
+              electroencephalogram (EEG) signals using machine learning and artificial intelligence techniques.
+              Feature extraction methods including spectral and time-frequency analysis were applied to EEG data,
+              and multiple classification algorithms (SVM, ANN, k-NN) were evaluated for their performance in
+              identifying distinct mental states. The research contributed to brain-computer interface (BCI) systems
+              and led to two published IEEE conference papers.
+            </p>
+            <div class="thesis-keywords">
+              <span class="keyword">EEG Signal Processing</span>
+              <span class="keyword">Motor Imagery</span>
+              <span class="keyword">Brain-Computer Interface</span>
+              <span class="keyword">SVM / ANN / k-NN</span>
+              <span class="keyword">Feature Extraction</span>
+              <span class="keyword">IEEE Published</span>
+            </div>
+          </div>
+        </div>
 
-    </body>
+      </div><!-- /thesis-grid -->
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+      <div class="section-label">Technical</div>
+      <h2 class="section-title">Skills &amp; Tools</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-name">Programming</div>
+          <div class="skill-list">
+            <span class="skill-pill">Python</span>
+            <span class="skill-pill">MATLAB</span>
+            <span class="skill-pill">C</span>
+            <span class="skill-pill">Arduino</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-name">ML Frameworks</div>
+          <div class="skill-list">
+            <span class="skill-pill">Scikit-learn</span>
+            <span class="skill-pill">TensorFlow</span>
+            <span class="skill-pill">PyTorch</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-name">Data Science Tools</div>
+          <div class="skill-list">
+            <span class="skill-pill">Numpy</span>
+            <span class="skill-pill">Pandas</span>
+            <span class="skill-pill">Matplotlib</span>
+            <span class="skill-pill">seaborn</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-name">Simulation</div>
+          <div class="skill-list">
+            <span class="skill-pill">Simulink</span>
+            <span class="skill-pill">Lumerical FDTD</span>
+            <span class="skill-pill">Microwind</span>
+            <span class="skill-pill">Proteus</span>
+            <span class="skill-pill">Logisim</span>
+            <span class="skill-pill">CST Studio</span>
+            <span class="skill-pill">Microwave Office</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-name">Networking</div>
+          <div class="skill-list">
+            <span class="skill-pill">Cisco Packet Tracer</span>
+            <span class="skill-pill">Wireshark</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-name">Design &amp; Web</div>
+          <div class="skill-list">
+            <span class="skill-pill">Adobe Illustrator</span>
+            <span class="skill-pill">Adobe Photoshop</span>
+            <span class="skill-pill">Figma</span>
+            <span class="skill-pill">Canva</span>
+            <span class="skill-pill">HTML5</span>
+            <span class="skill-pill">CSS3</span>
+            <span class="skill-pill">Bootstrap</span>
+            <span class="skill-pill">WordPress</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-name">Documentation</div>
+          <div class="skill-list">
+            <span class="skill-pill">LaTeX</span>
+            <span class="skill-pill">Microsoft Office</span>
+            <span class="skill-pill">LibreOffice</span>
+            <span class="skill-pill">Zotero</span>
+            <span class="skill-pill">Mendeley</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="section-label">Work</div>
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card project-collapsible">
+          <div class="project-header collapsible-trigger" aria-expanded="false">
+            <div class="project-header-main">
+              <div class="project-title">
+                Robust Federated Learning under Distribution Shift in Biomedical Time-Series Data
+              </div>
+              <div class="project-header-meta">
+                <span class="project-status ongoing">Ongoing</span>
+                <span class="chevron"><i class="fa-solid fa-chevron-down"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible-body project-body">
+            <div class="project-details">
+              <div class="project-detail-row">
+                <i class="fa-regular fa-building-columns"></i>
+                <span>Jahangirnagar University, IIT — M.S. Research Project</span>
+              </div>
+              <div class="project-detail-row">
+                <i class="fa-regular fa-calendar"></i>
+                <span>2022 – Present</span>
+              </div>
+              <p class="project-desc">
+                Investigates robust training of federated learning models on heterogeneous biomedical
+                time-series data (EEG, ECG, EMG) across distributed clients. Proposes domain adaptation
+                and robust aggregation strategies to handle non-IID data distributions in privacy-preserving,
+                decentralized healthcare AI settings.
+              </p>
+              <div class="project-tags">
+                <span class="keyword">Federated Learning</span>
+                <span class="keyword">Biomedical Signals</span>
+                <span class="keyword">Non-IID Data</span>
+                <span class="keyword">Privacy-Preserving ML</span>
+                <span class="keyword">Python · PyTorch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card project-collapsible">
+          <div class="project-header collapsible-trigger" aria-expanded="false">
+            <div class="project-header-main">
+              <div class="project-title">
+                Detection of Motor Imagery (MI) Events in EEG Signals Using Artificial Intelligence Techniques
+              </div>
+              <div class="project-header-meta">
+                <span class="project-status completed">Completed</span>
+                <span class="chevron"><i class="fa-solid fa-chevron-down"></i></span>
+              </div>
+            </div>
+          </div>
+          <div class="collapsible-body project-body">
+            <div class="project-details">
+              <div class="project-detail-row">
+                <i class="fa-regular fa-building-columns"></i>
+                <span>University of Liberal Arts Bangladesh — B.S. Thesis Project</span>
+              </div>
+              <div class="project-detail-row">
+                <i class="fa-regular fa-calendar"></i>
+                <span>2018 – 2019</span>
+              </div>
+              <div class="project-detail-row">
+                <i class="fa-regular fa-newspaper"></i>
+                <span>2 IEEE conference papers published</span>
+              </div>
+              <p class="project-desc">
+                Automated detection and classification of motor imagery (MI) events from EEG signals using
+                SVM, ANN, and k-NN algorithms. Spectral and time-frequency feature extraction methods were
+                benchmarked, contributing to brain-computer interface (BCI) research and resulting in two
+                published IEEE conference papers (EWDTS 2020, ACMI 2021).
+              </p>
+              <div class="project-tags">
+                <span class="keyword">EEG Processing</span>
+                <span class="keyword">Motor Imagery</span>
+                <span class="keyword">BCI</span>
+                <span class="keyword">SVM · ANN · k-NN</span>
+                <span class="keyword">MATLAB · Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── EXPERIENCE ── -->
+    <section id="experience">
+      <div class="section-label">Career</div>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="exp-timeline">
+
+        <!-- ════════════════════════════════
+             JOB 1 — Data Engineer, RWS Group Limited
+             ════════════════════════════════ -->
+        <!--
+        <div class="exp-card">
+          <div class="exp-card-header collapsible-trigger" aria-expanded="true">
+            <div class="exp-logo-wrap">
+              <div class="exp-logo-icon"><i class="fa-solid fa-database"></i></div>
+            </div>
+            <div class="exp-header-body">
+              <div class="exp-header-top">
+                <div>
+                  <div class="exp-role">Data Engineer</div>
+                  <div class="exp-company">RWS Group Limited</div>
+                </div>
+                <div class="exp-header-right">
+                  <span class="exp-badge current">Current</span>
+                  <span class="exp-period"><i class="fa-regular fa-calendar"></i> April 2026 – Present</span>
+                  <span class="chevron open"><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+              </div>
+              <div class="exp-tags-row">
+                <span class="exp-tag"><i class="fa-solid fa-globe"></i> Remote</span>
+                <span class="exp-tag">Full-time</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible-body exp-body open">
+            <div class="exp-body-inner">
+              <p class="exp-body-label">Key Responsibilities</p>
+              <ul class="exp-responsibilities">
+                <li>Build, maintain, and optimize data workflows and pipelines for reliable and scalable data processing</li>
+                <li>Transform raw data into structured formats suitable for analysis and reporting</li>
+                <li>Develop and manage dashboards and reports with a focus on clarity, usability, and clean design standards</li>
+                <li>Ensure data accuracy, consistency, and integrity across all systems</li>
+                <li>Collaborate with stakeholders to understand data needs and translate them into actionable insights</li>
+                <li>Continuously improve data processes, reporting efficiency, and overall data quality in a fast-paced, remote work environment</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        -->
+
+        <!-- ════════════════════════════════
+             JOB 2 — Teaching Assistant, ULAB
+             ════════════════════════════════ -->
+        <div class="exp-card">
+          <div class="exp-card-header collapsible-trigger" aria-expanded="false">
+            <div class="exp-logo-wrap">
+              <div class="exp-logo-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
+            </div>
+            <div class="exp-header-body">
+              <div class="exp-header-top">
+                <div>
+                  <div class="exp-role">Teaching Assistant</div>
+                  <div class="exp-company">
+                    <a href="https://ulab.edu.bd/" target="_blank" rel="noopener">University of Liberal Arts Bangladesh</a>
+                  </div>
+                </div>
+                <div class="exp-header-right">
+                  <span class="exp-period"><i class="fa-regular fa-calendar"></i> June 2019 – June 2020</span>
+                  <span class="chevron"><i class="fa-solid fa-chevron-down"></i></span>
+                </div>
+              </div>
+              <div class="exp-tags-row">
+                <span class="exp-tag"><i class="fa-solid fa-location-dot"></i> Dhaka, Bangladesh</span>
+                <span class="exp-tag">Dept. of EEE</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="collapsible-body exp-body">
+            <div class="exp-body-inner">
+              <p class="exp-body-label">Assisted in laboratory instruction, prepared course materials, and mentored students across three semesters.</p>
+
+              <!-- Nested semester dropdowns -->
+
+              <!-- Spring 2020 -->
+              <div class="exp-semester">
+                <div class="semester-label">
+                  <span class="semester-name">Spring 2020</span>
+                  <div class="semester-line"></div>
+                </div>
+                <div class="course-list">
+                  <div class="course-item">
+                    <div class="course-code">ETE 312</div>
+                    <div class="course-info">
+                      <div class="course-name">Control System Engineering &amp; Robotics Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/abul-barkat-mollah-sayeed-ud-doulah-phd" target="_blank" rel="noopener">Abul Barkat Mollah Sayeed Ud Doulah, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">EEE 304 / ETE 316</div>
+                    <div class="course-info">
+                      <div class="course-name">Digital Signal Processing Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/abul-barkat-mollah-sayeed-ud-doulah-phd" target="_blank" rel="noopener">Abul Barkat Mollah Sayeed Ud Doulah, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">CSE 104</div>
+                    <div class="course-info">
+                      <div class="course-name">Structured Programming Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener">Mirza Rasheduzzaman, PhD</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fall 2019 -->
+              <div class="exp-semester">
+                <div class="semester-label">
+                  <span class="semester-name">Fall 2019</span>
+                  <div class="semester-line"></div>
+                </div>
+                <div class="course-list">
+                  <div class="course-item">
+                    <div class="course-code">EEE 312</div>
+                    <div class="course-info">
+                      <div class="course-name">Microprocessor and Embedded Systems Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener">Mirza Rasheduzzaman, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">ETE 320</div>
+                    <div class="course-info">
+                      <div class="course-name">Computer Architecture and Microprocessor Interfacing Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener">Mirza Rasheduzzaman, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">ETE 464</div>
+                    <div class="course-info">
+                      <div class="course-name">Optical Fiber Communication Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/abul-barkat-mollah-sayeed-ud-doulah-phd" target="_blank" rel="noopener">Abul Barkat Mollah Sayeed Ud Doulah, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">CSE 104</div>
+                    <div class="course-info">
+                      <div class="course-name">Structured Programming Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://ulab.edu.bd/academics/faculty-list/profile/257/" target="_blank" rel="noopener">Shameem Hasan</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Summer 2019 -->
+              <div class="exp-semester">
+                <div class="semester-label">
+                  <span class="semester-name">Summer 2019</span>
+                  <div class="semester-line"></div>
+                </div>
+                <div class="course-list">
+                  <div class="course-item">
+                    <div class="course-code">EEE 312</div>
+                    <div class="course-info">
+                      <div class="course-name">Microprocessor and Embedded Systems Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener">Mirza Rasheduzzaman, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">ETE 320</div>
+                    <div class="course-info">
+                      <div class="course-name">Computer Architecture and Microprocessor Interfacing Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://eee.ulab.edu.bd/faculty/mirza-rasheduzzaman-phd" target="_blank" rel="noopener">Mirza Rasheduzzaman, PhD</a></div>
+                    </div>
+                  </div>
+                  <div class="course-item">
+                    <div class="course-code">ETE 203</div>
+                    <div class="course-info">
+                      <div class="course-name">Electronics Devices and Circuit – I Lab</div>
+                      <div class="course-instructor">Instructor: <a href="https://ulab.edu.bd/academics/faculty-list/profile/257/" target="_blank" rel="noopener">Shameem Hasan</a></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- /exp-body-inner -->
+          </div><!-- /exp-body -->
+        </div><!-- /exp-card -->
+
+      </div><!-- /exp-timeline -->
+    </section>
+
+    <!-- ── PUBLICATIONS ── -->
+    <section id="publications">
+      <div class="section-label">Research Output</div>
+      <h2 class="section-title">Publications</h2>
+
+      <div class="pub-year-group">
+        <div class="pub-year">2021</div>
+        <div class="pub-list">
+          <div class="pub-item">
+            <div class="pub-index">01</div>
+            <div>
+              <div class="pub-title">
+                <a href="https://ieeexplore.ieee.org/document/9528276" target="_blank" rel="noopener">
+                  A Comparative Study of Motor Imagery (MI) Detection in Electroencephalogram (EEG) Signals Using Different Classification Algorithms
+                </a>
+              </div>
+              <div class="pub-authors">Muhammad Yeamim Hossain*, Abul Sayeed</div>
+              <div class="pub-venue">
+                <i class="fa-regular fa-bookmark" style="color: var(--accent); font-size:0.75rem;"></i>
+                <span class="pub-venue-name">IEEE · ACMI 2021</span>
+                2021 International Conference on Automation, Control and Mechatronics for Industry 4.0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pub-year-group">
+        <div class="pub-year">2020</div>
+        <div class="pub-list">
+          <div class="pub-item">
+            <div class="pub-index">02</div>
+            <div>
+              <div class="pub-title">
+                <a href="https://ieeexplore.ieee.org/document/9224634" target="_blank" rel="noopener">
+                  Detection of Motor Imagery (MI) Event in Electroencephalogram (EEG) Signals Using Artificial Intelligence Technique
+                </a>
+              </div>
+              <div class="pub-authors">Muhammad Yeamim Hossain*, A.B.M.S.U. Doulah</div>
+              <div class="pub-venue">
+                <i class="fa-regular fa-bookmark" style="color: var(--accent); font-size:0.75rem;"></i>
+                <span class="pub-venue-name">IEEE · EWDTS 2020</span>
+                2020 IEEE East-West Design &amp; Test Symposium
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+      <span class="footer-name">Md Yeamim Hossain</span>
+      <span>Last updated: <span id="lastUpdated"></span> · &copy; 2025</span>
+    </footer>
+
+  </main><!-- /main -->
+</div><!-- /layout -->
+
+<script src="js/main.js"></script>
+</body>
 </html>
